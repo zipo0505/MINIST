@@ -35,3 +35,8 @@ x.view() & x.reshape()： 其實兩者的作用並沒有太大差別，作用都
 # test 模組
 
 # MNIST 資料集
+如果還沒有MNIST資料集，可以透過以下方式從 torchvision 下載，下載路徑為專案路徑下的 ‘./data’ 資料夾下，可以看到 MNIST 的資料是 ubyte
+
+透過上述datasets.MNIST 指令將MNIST 資料讀取到記憶體中，並轉換為Tensor 格式儲存在train_dataset 變數中，透過Debug 我們可以看到MNIST 的資料是【10000,28,28】的數據，每個【28 ,28】的資料對應的標籤是targets
+
+然後我們視覺化其中一個【28,28】資料可以看出，其就是一個28x28 的單通道灰階圖，每個值表示一個像素點，其值範圍為【0-255】，像素值並不能直接傳入模型，需要透過transforms.ToTensor() 轉換為Tensor格式。
