@@ -33,7 +33,7 @@ forward()： 是前向傳播函數，將先前定義好的每層神經網路模�
 
 x.view() & x.reshape()： 其實兩者的作用並沒有太大差別，作用都是調整張量的型別大小，view() 出現的更早些，而reshape() 則是為了與Numpy對齊，在Pytorch 0.3版本之後添加的，兩者作用沒有太大區別；
 # train 模組
-![image]
+![image](https://github.com/zipo0505/MINIST/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202024-11-03%20145607.png?raw=true)
 # test 模組
 
 # MNIST 資料集
