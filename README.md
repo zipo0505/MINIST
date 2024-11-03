@@ -1,6 +1,7 @@
 # 詳解 Pytorch 實作 MNIST
 南華大學跨領域-人工智慧期中報告
 11024103 林仁楚 11024227 邱胤睿
+
 參考網址:https://viatorsun.blog.csdn.net/article/details/107275868?spm=1001.2101.3001.6650.14&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-14-107275868-blog-125947800.235%5Ev43%5Econtrol&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-14-107275868-blog-125947800.235%5Ev43%5Econtrol&utm_relevant_index=24
 MNIST雖然很簡單，但是值得我們學習的東西還是有很多的。
 專案雖然簡單，但是個人建議還是將各個模組分開創建，特別是對於新人而言，模組化的創建會讓讀者更加清晰、易於理解。
