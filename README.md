@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/d671c985-3577-4b5d-ae45-9eded111e690)# 詳解 Pytorch 實作 MNIST
+# 詳解 Pytorch 實作 MNIST
 南華大學跨領域-人工智慧期中報告
 11024103 林仁楚 11215025 邱胤睿
 
@@ -9,6 +9,8 @@ CNN模組：卷積神經網路的組成；
 train模組：利用CNN模型 對 MNIST資料集 進行訓練並儲存模型
 test模組：載入訓練好的模型對測試集資料進行測試
 cnn.pt ： train 的CNN模型
+
+![image](https://github.com/zipo0505/MINIST/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202024-11-03%20150849.png?raw=true)
 # CNN 模組
 MNIST的辨識演算法很多，在此提供的是 卷積神經網路CNN ，其他演算法也同樣可以取得很好的辨識效果，有興趣的小夥伴可以自己嘗試。
 
