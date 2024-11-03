@@ -33,3 +33,5 @@ x.view() & x.reshape()： 其實兩者的作用並沒有太大差別，作用都
 # train 模組
 
 # test 模組
+
+# MNIST 資料集
