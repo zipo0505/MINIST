@@ -1,1 +1,1 @@
-# cnntrain
+# MINIST
