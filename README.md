@@ -37,6 +37,7 @@ x.view() & x.reshape()： 其實兩者的作用並沒有太大差別，作用都
 # train 模組
 ![image](https://github.com/zipo0505/MINIST/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202024-11-03%20145607.png?raw=true)
 # test 模組
+![image](https://github.com/user-attachments/assets/cc17038c-c9d8-4b8c-971d-c34dd8e33832)
 
 # MNIST 資料集
 如果還沒有MNIST資料集，可以透過以下方式從 torchvision 下載，下載路徑為專案路徑下的 ‘./data’ 資料夾下，可以看到 MNIST 的資料是 ubyte
