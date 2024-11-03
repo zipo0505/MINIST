@@ -48,3 +48,4 @@ x.view() & x.reshape()： 其實兩者的作用並沒有太大差別，作用都
 ![image](https://github.com/user-attachments/assets/6cebf45d-797a-4686-9d8e-ff8deb8484cf)
 
 然後我們視覺化其中一個【28,28】資料可以看出，其就是一個28x28 的單通道灰階圖，每個值表示一個像素點，其值範圍為【0-255】，像素值並不能直接傳入模型，需要透過transforms.ToTensor() 轉換為Tensor格式。
+![image](https://github.com/zipo0505/MINIST/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202024-11-03%20150315.png?raw=true)
