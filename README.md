@@ -1,4 +1,4 @@
-# 詳解 Pytorch 實作 MNIST
+![image](https://github.com/user-attachments/assets/d671c985-3577-4b5d-ae45-9eded111e690)# 詳解 Pytorch 實作 MNIST
 南華大學跨領域-人工智慧期中報告
 11024103 林仁楚 11215025 邱胤睿
 
@@ -31,7 +31,7 @@ forward()： 是前向傳播函數，將先前定義好的每層神經網路模�
 
 x.view() & x.reshape()： 其實兩者的作用並沒有太大差別，作用都是調整張量的型別大小，view() 出現的更早些，而reshape() 則是為了與Numpy對齊，在Pytorch 0.3版本之後添加的，兩者作用沒有太大區別；
 # train 模組
-
+![image]
 # test 模組
 
 # MNIST 資料集
